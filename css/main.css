@@ -1,0 +1,270 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  background: #2b3d50;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  height: 100px;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+
+}
+
+section >div >h1 {
+  font-weight: 900;
+  margin: 5px;
+}
+
+section >div >h6 {
+  color: #fff;
+  display: inline-block;
+  font-size: 25px;
+  font-family:'Montserrat', sans-serif;
+  font-weight: 400;
+  margin:10px 0px 0px 0px;
+}
+
+section >div >img {
+  width: 251px;
+}
+
+a{
+  color: #fff;
+  text-decoration:none;
+}
+
+footer{
+  background: #2b3d50;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  width: 100%;
+  text-align: center;
+  padding: 1px;
+}
+
+#menu-container {
+  margin: 20px 170px 0 0;
+}
+
+#name {
+  float:left;
+  font-size: 30px;
+  font-weight: 700;
+  left: 60px;
+  margin: 30px 100px;
+}
+
+#first-section {
+  background: #00c39f;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 50px;
+  height: 330px;
+  padding: 200px;
+  text-align: center;
+}
+
+#portfolio,#contact-me{
+  background: #fff;
+  color: #000;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  height: 930px;
+  padding: 30px;
+  text-align: center;
+}
+
+#about {
+  background: #00c39f;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  height: 550px;
+  text-align: center;
+}
+
+.text{
+  float: left;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  padding: 12px 0px 0 80px;
+  text-align: left;
+  width: 300px;
+}
+
+#p1{
+   margin: 22px 0 0 237px
+}
+
+#white-button{
+  background: #00c39f;
+  border-radius: 5px;
+  border-width: medium;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  height: 55px;
+  margin:71px;
+  text-align: center;
+  text-decoration: none;
+  width: 228px;
+}
+
+#white-button:hover{
+  background: #fff;
+  color: #00c39f;
+}
+
+#contact-me{
+  height: 700px;
+}
+
+#personal-info {
+  margin: 0px 500px 20px 0px;
+}
+
+#green-button {
+  background: #00c39f;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 20px;
+  font-family: 'Montserrat', sans-serif;
+  height: 48px;
+  margin-right: 700px;
+  margin-top: 50px;
+  text-align: center;
+  text-decoration: none;
+  width: 78px;
+}
+
+#green-button:hover{
+  background: #009478;
+  cursor: pointer;
+}
+
+#info {
+  background: #2b3d50;
+  color: #fff;
+  width: 100%;
+  height: 300px;
+}
+
+#info >div {
+  font-size: 25px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  display: inline-block;
+  text-align: center;
+  width: 400px;
+  margin:35px 12px 24px
+  }
+
+#info >div >p{
+  font-size: 20px;
+  font-family:'Lato', sans-serif;
+  margin: 31px 0 0 51px;
+  width: 300px;
+}
+
+#start-link{
+  color: #00c39f;
+  text-decoration: none;
+}
+
+#start-link:hover{
+  text-decoration: underline;
+}
+
+
+#clear {
+  clear:left;
+}
+
+.right-button {
+  float: right;
+  font-size: 16px;
+  font-weight: 700;
+  margin: 13px 0px;
+  padding: 7px;
+}
+
+.button{
+  color: #fff;
+  text-decoration:none;
+}
+
+.button:hover{
+  color: #00c39f;
+}
+
+.pictures {
+  float: left;
+  margin: 50px 1px 1px 50px;
+  width: 370px;
+}
+
+.pictures:hover {
+  opacity: .50;
+  background-color: green;
+}
+
+.tittles{
+  margin: 0;
+  padding: 85px 0 0 0;;
+}
+
+.line >hr {
+  background: #fff;
+  display: inline-block;
+  height: 5px;
+  text-align: center;
+  width: 90px;
+  margin: 0;
+}
+
+.line-2 >hr {
+  background: #000;
+  display: inline-block;
+  height: 5px;
+  margin:0px;
+  text-align: center;
+  width: 90px;
+  margin: 0;
+}
+
+.input-nav{
+    border: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    height: 50px;
+    margin: 30px 0px 0px 260px;
+    width: 600px;
+}
+
+.icons{
+  display: inline-block;
+  border: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  margin:43px 0 0 0;
+  padding: 5px;
+  width: 40px;
+  height: 40px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.icons:hover{
+  background: #fff;
+  color: #00c39f;
+}
+
+.icons-span {
+  vertical-align: middle;
+}
